@@ -1,6 +1,6 @@
 {
   "森空岛登录": {
-    "desc": "在执行查询之前请森空岛登录",
+    "desc": "在执行查询之前请扫码登录",
     "data": [
       {
         "name": "扫码登录",
@@ -40,6 +40,14 @@
         "name": "签到",
         "desc": "签到",
         "eg": "签到",
+        "need_ck": true,
+        "need_sk": false,
+        "need_admin": false
+      },
+      {
+        "name": "自动签到",
+        "desc": "自动签到",
+        "eg": "开启/关闭自动签到",
         "need_ck": true,
         "need_sk": false,
         "need_admin": false
