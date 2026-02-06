@@ -12,8 +12,8 @@
       }
     ]
   }, 
-  "信息查询": {
-    "desc": "信息查询功能",
+  "抽卡相关查询": {
+    "desc": "抽卡相关查询功能",
     "data": [
       {
         "name": "刷新抽卡记录",
@@ -27,6 +27,27 @@
         "name": "抽卡记录",
         "desc": "查询抽卡记录",
         "eg": "抽卡记录",
+        "need_ck": true,
+        "need_sk": false,
+        "need_admin": false
+      }
+    ]
+  },
+  "信息查询": {
+    "desc": "信息查询功能",
+    "data": [
+      {
+        "name": "每日/mr",
+        "desc": "查询每日/mr信息",
+        "eg": "每日",
+        "need_ck": true,
+        "need_sk": false,
+        "need_admin": false
+      },
+      {
+        "name": "查询/卡片",
+        "desc": "查询卡片信息",
+        "eg": "卡片",
         "need_ck": true,
         "need_sk": false,
         "need_admin": false
